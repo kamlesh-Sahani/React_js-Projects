@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.card{
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    height: 60vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #222121;
+
+}
+.card .search{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid gray ;
+}
+.card .search input{
+    width: 80%;
+    height: 60%;
+    outline: none;
+    border: 2px solid gray;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.card .main{
+    height: 60%;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid gray;
+    display: flex;
+
+}
+
+.card .main .img{
+    transform: scale(0.5);
+    margin-top: -60px;
+    margin-left: -100px;
+}
+
+.card .main  .cityName{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}  
+.card .main  .cityName .celcius{
+    font-size: 60px;
+    margin-left: -70px;
+}
+.card .main  .cityName span{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .foot{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.card .foot .left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 38%;
+    border-right: 1px solid gray;
+}
+.card .foot .left span{
+    font-size: 25px;
+
+}
+.card .foot .right span{
+    font-size: 25px;
+
+}
+.card .foot .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 38%;
+}
