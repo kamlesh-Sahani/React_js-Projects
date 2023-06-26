@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,800;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container .logo img{
+width: 76px;
+height: 43px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+}
+.container nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    width: 100%;
+    height: 72px;
+    padding: 30px;
+}
+.container nav .link ul{
+    list-style: none;
+    display: flex;
+}
+.container nav .link ul li{
+    margin: 0px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+.container nav .logIn button{
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #D01C28;
+    padding: 6px 16px;
+    width: 90px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+.container  .box{   
+    width: 90%;
+    height: 80vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+
+}
+
+.container .content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+}
+.container .content p{
+    font-size: 108px;
+    font-weight: 800;
+    line-height:103px;
+}
+.container .content span{
+    font-size: 16px;
+    font-weight: 600;
+    color:  #5A5959;
+    width: 400px;
+}
+
+.container .content .btn{
+    display: flex;
+    gap: 20px;
+
+}
+.container .content .btn button{
+    padding: 6px 16px;
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+}
+.container .content .btn .active{
+    background-color: #D01C28;
+    color: #fff;
+    border: none;
+}
+
+.container .box .card{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+.container .box .card .fn{
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.box .card .img {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+
+}
