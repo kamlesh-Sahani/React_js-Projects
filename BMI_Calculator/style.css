@@ -1,0 +1,37 @@
+
+.bmi{
+    background-color: #fff;
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(63, 63, 63);
+    margin: 45px auto;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.bmi .feild{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.bmi .feild input{
+    height: 40px ;
+    width: 75%;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 20px;
+    margin: 16px 0;
+}
+
+.bmi .result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bmi .result h3{
+    color: gray;
+}
