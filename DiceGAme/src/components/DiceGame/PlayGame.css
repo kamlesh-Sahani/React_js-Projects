@@ -1,0 +1,41 @@
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 100px auto;
+gap: 100px;
+}
+.container .img img{
+    width: 649px;
+    height: 522px;
+}
+.container .content h1{
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 144px;
+}
+.container .content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: end;
+}
+.container .content button{
+    padding: 10px 18px;
+    background-color: black;
+    color: #fff;
+    width: 220px;
+    height: 44px;
+    border-radius: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+    border: 1px solid black;
+   
+}
+.container .content button:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    font-size: 15px;
+    transition: 0.4s;
+}
