@@ -1,0 +1,30 @@
+.nav{
+width: 100%;
+padding: 30px;
+display: flex;
+justify-content: space-between;
+background-color: #fff;
+position: sticky;
+top: 0;
+z-index: 99;
+h1{
+    margin-top: -10px;
+font-weight: 500;
+}
+ .link{
+    display: flex;
+    margin-right: 50px;
+
+    a{
+        margin: 0px 20px ;
+        text-decoration: none;
+        color: black;
+        font-weight:400;
+
+        &:hover{
+            color: rgb(161, 161, 161);
+        }
+
+    }
+ }
+}
