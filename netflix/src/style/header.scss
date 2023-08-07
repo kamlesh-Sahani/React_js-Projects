@@ -1,0 +1,48 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a{
+            margin: 0 30px;
+            font-size: 22px;
+            font-weight: 300;
+            cursor: pointer;
+            &:hover{
+                opacity: 0.5;
+                transition: all 0.3s linear;
+              
+            }
+        }
+      
+
+        img{
+            margin: 0 20px;
+            height:90px;
+            width: 200px;
+            
+        }
+
+    }
+    .search{
+        font-size: 30px;
+        margin-right: 20px;
+        &:hover{
+            opacity: 0.5;
+            transition: all 0.3s linear;
+          
+        }
+    }
+}
+
+
+@media screen and (max-width: 985px) {
+    .nav .link a {
+      display: none;
+    }
+  }
