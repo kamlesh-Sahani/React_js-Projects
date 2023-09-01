@@ -1,10 +1,8 @@
 import React from 'react'
-import Todo from './Components/Todo'
+import Weather from './weather'
 const App = () => {
   return (
-    <div> 
-     <Todo />
-    </div>
+    <Weather />
   )
 }
 

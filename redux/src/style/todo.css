@@ -1,0 +1,41 @@
+.todo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+button{
+    height: 50px;
+    width: 130px;
+    border-radius:7px;
+    outline: none;
+    background-color: black;
+    color: white;
+}
+.item{
+    padding:40px ;
+}
+.item div{
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 8px;
+}
+.item div .btn{
+    color: red;
+    cursor: pointer;
+}
+.item div .btn:hover{
+    color: rgb(126, 126, 126);
+}

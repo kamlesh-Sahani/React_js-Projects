@@ -9,7 +9,7 @@ const Header = () => {
         <h1>Codinghar</h1>
         <div className="link">
           <HashLink to={"/#home"}>HOme</HashLink>
-          <Link to={"/contact"}>Contact</Link>
+          <Link to={"/contactnpm"}>Contact</Link>
           <HashLink to={"/#about"}>About</HashLink>
           <HashLink to={"#brand"}>Brand</HashLink>
           <Link to={"/services"}>Services</Link>

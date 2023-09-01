@@ -24,20 +24,20 @@ const Home = () => {
 
  useEffect(()=>{
    const  fetchUpcoming = async() =>{
-        const {data}  = await axios.get(`${apiUrl}/${upcoming}/${apiKey}`);
+        const {data}  = await axios.get(`${apiUrl}/${upcoming}${apiKey}`);
         setUpcomingMovie(data['results']);
     }
     const fetchPopular = async() =>{
-        const {data} = await axios.get(`${apiUrl}/${popular}/${apiKey}`);
+        const {data} = await axios.get(`${apiUrl}/${popular}${apiKey}`);
         setPopularMovie(data['results']);
 
     }
     const fetchTopRated = async() =>{
-        const {data} = await axios.get(`${apiUrl}/${topRated}/${apiKey}`);
+        const {data} = await axios.get(`${apiUrl}/${topRated}${apiKey}`);
         setTopRatedMovie(data['results']);
     }
     const fetchNowPlaying = async() =>{
-        const {data} = await axios.get(`${apiUrl}/${nowPlaying}/${apiKey}`);
+        const {data} = await axios.get(`${apiUrl}/${nowPlaying}${apiKey}`);
         setNowPlayingdMovie(data['results']);
     }
 
